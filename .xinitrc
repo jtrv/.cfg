@@ -37,9 +37,6 @@ udiskie -An --terminal=lf &          # notif for mountable drives
 ~/.local/bin/map-keys &              # map caps to ctrl/esc
 ~/.local/bin/trackball-speed &       # set trackball speed
 
-# randomized wallpapers
-feh --randomize --bg-scale --no-fehbg ~/media/pictures/wallpapers/ &
-
 # startup sound
 mpv --no-config --no-video ~/.config/sounds/ps2.flac &
 
