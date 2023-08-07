@@ -43,13 +43,13 @@ alias j       '~/.config/lf/wrapper'
 alias kenv    'k ~/.config/fish/env.fish'
 alias kish    'k ~/.config/fish/config.fish'
 alias konf    'k ~/.config/kak/kakrc'
-alias la      'fls -al --color=always' # all files and dirs
+alias la      'exa -al --color=always' # all files and dirs
 alias lc      'lazygit --git-dir=$HOME/.cfg/ --work-tree=$HOME' # lazygit for config files
 alias lg      'lazygit'
 alias lh      'exa -la --color=always --ignore-glob="[a-z]*|[A-Z]*|[0-9]*"' # hidden only
-alias ll      'fls -l --color=always' # long format
-alias ls      'fls -l --color=always' # preferred listing
-alias lsn     'fls' # normal ls for piping
+alias ll      'exa -l --color=always' # long format
+alias ls      'exa -l --color=always' # preferred listing
+alias lsn     'exa' # normal ls for piping
 alias lt      'exa -aT --color=always --group-directories-first --git --icons' # tree listing
 alias loc     'plocate'
 alias m       'qalc'
