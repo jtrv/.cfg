@@ -34,6 +34,7 @@ pcmanfm --daemon-mode &              # file-manager daemon
 picom &                              # window opacity / blur
 redshift &                           # bluelight filter
 udiskie -An --terminal=lf &          # notif for mountable drives
+xcalib ~/.config/x200.icc            # color calibration
 ~/.local/bin/map-keys &              # map caps to ctrl/esc
 ~/.local/bin/trackball-speed &       # set trackball speed
 
