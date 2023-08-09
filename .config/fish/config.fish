@@ -62,6 +62,7 @@ alias off     'systemctl hibernate'
 alias pom     'potato' # shell pomodoro timer
 alias q       'exit'
 alias rbt     'systemctl kexec'
+alias sus     'systemctl suspend'
 alias thes    'thesauromatic'
 alias wget    "wget --hsts-file=\"$XDG_DATA_HOME/wget-hsts\""
 alias yarn    "yarn --use-yarnrc \"$XDG_CONFIG_HOME\"/yarn/config"
